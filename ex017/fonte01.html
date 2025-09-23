@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+
+            font-family: 'Work Sans', Arial, Helvetica,sans-serif;
+            /*medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas 
+            em, ex, rem, vw, vh, %
+            A W3C recomenda sempre utilizar em medidas absolutas o PX e em medidas relativas o EM.
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* lighter normal bold bolder*/
+
+        }
+
+        h1 {
+             /*shorthand font
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans, sans-serif'
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maxime perferendis quisquam, nesciunt facilis veniam, totam fugiat eius accusantium ex possimus aut ducimus, suscipit debitis quam consequuntur adipisci exercitationem laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam accusamus incidunt, ut rem autem qui mollitia vero nam magni expedita dolore! Error, ex eligendi at commodi quisquam pariatur sint ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repudiandae quaerat, quod officiis repellendus possimus assumenda itaque sunt atque distinctio odit dolores. Impedit molestiae in distinctio deserunt ipsa dolores vitae!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum vel nisi veritatis ut id? Ratione ipsa soluta laboriosam. Rem quibusdam odio ullam hic culpa magni placeat deleniti facere in.</p>  
+</body>
+</html>
